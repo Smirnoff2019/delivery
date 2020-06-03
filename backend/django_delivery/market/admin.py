@@ -1,5 +1,6 @@
 from django.contrib import admin
-from market.models import Provider, Consumer, Category, Product, Order, OrderProduct, Store
+
+from .models import Provider, Consumer, Category, Product, Order, OrderProduct, Store
 
 class ProviderAdmin(admin.ModelAdmin):
     pass

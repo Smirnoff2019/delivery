@@ -88,3 +88,14 @@ class OrderProduct(models.Model):
     class Meta:
         verbose_name = 'OrderProduct'
         verbose_name_plural = 'OrderProducts'
+
+
+# class Notification(models.Model):
+#     product = models.ForeignKey(Product,on_delete=models.CASCADE, null=True, blank=True)
+#     provider = models.ForeignKey(Provider,on_delete=models.CASCADE, null=True, blank=True, related_name='provider')
+#     consumer = models.ForeignKey(Consumer,on_delete=models.CASCADE, null=True, blank=True, related_name='consumer')
+#     created_at = models.DateTimeField(auto_now_add=True)
+#
+#     class Meta:
+#         verbose_name = 'Notification'
+#         verbose_name_plural = 'Notifications'
