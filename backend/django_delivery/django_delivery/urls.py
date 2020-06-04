@@ -24,7 +24,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="Delivery API",
       default_version='v1',
-      description=''' 
+      description='''
           Documentation `ReDoc` view can be found [here](/doc).
       ''',
       contact=openapi.Contact(email="smirnoff.mu@gmail.com"),
