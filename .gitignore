@@ -1,0 +1,9 @@
+*.pyc
+__pycache__
+`.pytest_cache
+delivery/
+node_modules/
+package-lock.json
+.vscode
+.idea
+backend/django_delivery/db.sqlite3

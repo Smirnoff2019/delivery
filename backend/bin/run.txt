@@ -1,0 +1,3 @@
+delivery\Scripts\activate.bat
+cd django_delivery
+python manage.py runserver 8080

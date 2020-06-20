@@ -1,0 +1,6 @@
+cd backend
+python -m venv django_delivery
+delivery\Scripts\activate.bat
+python -m pip instal -r requirements.txt
+cd django_delivery
+python manage.py migrate
